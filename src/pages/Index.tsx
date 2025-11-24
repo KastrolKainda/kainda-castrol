@@ -394,24 +394,13 @@ const Index = () => {
               <h3 className="text-2xl font-heading font-bold mb-6 gradient-text-accent">My Story</h3>
               <div className="space-y-4 text-lg text-muted-foreground leading-relaxed">
                 <p>
-                  My journey in technology began during my undergraduate studies, where I discovered my passion 
-                  for creating digital solutions that make a real difference. What started as curiosity evolved 
-                  into a career dedicated to bridging the gap between complex technology and user-friendly design.
-                </p>
-                <p>
-                  Over the years, I've had the privilege of working with diverse clients, from startups to 
-                  established businesses, helping them bring their visions to life. But what truly drives me is 
-                  education – I've taught over 200 students, each with their own unique aspirations, and watched 
-                  them transform into confident developers and designers.
-                </p>
-                <p>
-                  I don't just build websites or applications; I create experiences. Every project is an opportunity 
-                  to combine creativity with functionality, aesthetics with performance. My approach is collaborative, 
-                  detail-oriented, and always focused on delivering results that exceed expectations.
+                  I'm a passionate computer scientist who turned curiosity into expertise. With 5+ years of experience 
+                  building digital solutions and teaching 200+ students, I bridge technology and design to create 
+                  experiences that work beautifully.
                 </p>
                 <p className="font-semibold text-foreground">
-                  When you work with me, you're not just hiring a developer – you're partnering with someone who 
-                  genuinely cares about your success and is committed to turning your ideas into reality.
+                  When you work with me, you're partnering with someone who genuinely cares about your success and 
+                  delivers results that exceed expectations.
                 </p>
               </div>
             </Card>
