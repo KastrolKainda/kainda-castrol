@@ -215,8 +215,8 @@ const Index = () => {
                 About <span className="gradient-text">Me</span>
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                I'm a passionate Computer Science professional with over 5 years of experience in web development, 
-                UI/UX design, and tech education. I've had the privilege of working on 50+ projects and teaching 
+                I'm a passionate Computer Science professional with over 1 year of experience in web development, 
+                UI/UX design, and tech education. I've had the privilege of working on 15+ personal projects and teaching 
                 200+ students the art of programming and design.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
@@ -225,7 +225,7 @@ const Index = () => {
                 functional but also beautiful and user-friendly.
               </p>
               <Button className="bg-accent hover:bg-accent/90 text-accent-foreground glow-accent">
-                Read More
+                
               </Button>
             </div>
           </div>
