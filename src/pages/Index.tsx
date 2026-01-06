@@ -296,9 +296,7 @@ const Index = () => {
               
               <Button className="bg-primary hover:bg-primary/90 text-primary-foreground glow-primary">
                 <Github className="w-5 h-5 mr-2" />
-
-                
-                <a href="https://github.com/KastrolKainda/KastrolKainda" </a> Visit GitHub Profile
+                <a href="https://github.com/KastrolKainda/KastrolKainda" </a> Visit GitHub Profile 
                 
               </Button>
 
