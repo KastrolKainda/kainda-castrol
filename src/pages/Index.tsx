@@ -299,8 +299,6 @@ const Index = () => {
                 <a href="https://github.com/KastrolKainda/KastrolKainda"> Visit GitHub Profile </a>
                 
               </Button>
-
-
             
             </Card>
           </div>
@@ -347,6 +345,9 @@ const Index = () => {
         </div>
       </section>
 
+
+      
+
       {/* Project Hub Section */}
       <section id="projects" className="section-padding">
         <div className="container-custom">
@@ -375,6 +376,7 @@ const Index = () => {
                   <p className="text-muted-foreground mb-4">Brief description of the project and technologies used</p>
                   <Button variant="outline" size="sm" className="w-full">
                     <ExternalLink className="w-4 h-4 mr-2" />
+                    
                     View Project
                   </Button>
                 </div>
@@ -384,7 +386,7 @@ const Index = () => {
 
           <div className="text-center">
             <Button className="bg-primary hover:bg-primary/90 text-primary-foreground glow-primary">
-              View All Projects
+              <a href="https://github.com/KastrolKainda/KastrolKainda">View All Projects </a>
             </Button>
           </div>
         </div>
