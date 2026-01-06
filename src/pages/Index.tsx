@@ -224,9 +224,9 @@ const Index = () => {
                 AI tools integration, and data analysis. I believe in creating solutions that are not only 
                 functional but also beautiful and user-friendly.
               </p>
-              <Button className="bg-accent hover:bg-accent/90 text-accent-foreground glow-accent">
+              
+             
                 
-              </Button>
             </div>
           </div>
         </div>
