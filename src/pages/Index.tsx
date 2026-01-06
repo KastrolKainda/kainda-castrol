@@ -463,7 +463,7 @@ const Index = () => {
                   <Mail className="w-6 h-6 text-primary" />
                 </div>
                 <h3 className="font-heading font-bold mb-2">Email</h3>
-                <p className="text-muted-foreground">kainda.castrol@example.com</p>
+                <p className="text-muted-foreground">ckinds09@gmail.com</p>
               </Card>
 
               <Card className="glass border-0 p-6">
@@ -471,7 +471,7 @@ const Index = () => {
                   <Phone className="w-6 h-6 text-accent" />
                 </div>
                 <h3 className="font-heading font-bold mb-2">Phone</h3>
-                <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                <p className="text-muted-foreground">+260 978 027 616</p>
               </Card>
 
               <Card className="glass border-0 p-6">
@@ -479,7 +479,7 @@ const Index = () => {
                   <MapPin className="w-6 h-6 text-primary" />
                 </div>
                 <h3 className="font-heading font-bold mb-2">Location</h3>
-                <p className="text-muted-foreground">Your City, Country</p>
+                <p className="text-muted-foreground">Plot No: 227/75 Ibex, Lusaka, ZM</p>
               </Card>
             </div>
           </div>
