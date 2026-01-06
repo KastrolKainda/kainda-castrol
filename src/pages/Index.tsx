@@ -296,7 +296,7 @@ const Index = () => {
               
               <Button className="bg-primary hover:bg-primary/90 text-primary-foreground glow-primary">
                 <Github className="w-5 h-5 mr-2" />
-                <a href="https://github.com/KastrolKainda/KastrolKainda" </a> Visit GitHub Profile 
+                <a href="https://github.com/KastrolKainda/KastrolKainda"> Visit GitHub Profile </a>
                 
               </Button>
 
@@ -328,7 +328,7 @@ const Index = () => {
               </p>
               <Button variant="outline" className="border-accent text-accent hover:bg-accent/10">
                 <ExternalLink className="w-4 h-4 mr-2" />
-                View eBooks
+                <a href="https://tr.ee/S6eKVXGmza"> View eBooks</a>
               </Button>
             </Card>
 
@@ -340,7 +340,7 @@ const Index = () => {
               </p>
               <Button variant="outline" className="border-primary text-primary hover:bg-primary/10">
                 <ExternalLink className="w-4 h-4 mr-2" />
-                Watch Videos
+                <a href="https://drive.google.com/file/d/1Y8oYQYQEwKQiB2gWhLnaJwwJ7fP6p9RY/view?usp=sharing"> Watch Videos </a>
               </Button>
             </Card>
           </div>
@@ -501,7 +501,7 @@ const Index = () => {
             {/* Social Links */}
             <div className="flex space-x-6">
               <a
-                href="https://www.linkedin.com/in/kainda-castrol-65394523b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                href="www.linkedin.com/in/kainda-castrol-65394523b"
                 className="w-12 h-12 rounded-full glass flex items-center justify-center hover:bg-primary/20 hover:scale-110 transition-all"
               >
                 <Linkedin className="w-5 h-5" />
