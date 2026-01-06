@@ -290,10 +290,20 @@ const Index = () => {
               <p className="text-muted-foreground mb-6">
                 Check out my latest work, contributions, and open-source projects on GitHub
               </p>
+
+
+
+              
               <Button className="bg-primary hover:bg-primary/90 text-primary-foreground glow-primary">
                 <Github className="w-5 h-5 mr-2" />
-                Visit GitHub Profile
+
+                
+                <a href="https://github.com/KastrolKainda/KastrolKainda" </a> Visit GitHub Profile
+                
               </Button>
+
+
+            
             </Card>
           </div>
         </div>
@@ -493,25 +503,25 @@ const Index = () => {
             {/* Social Links */}
             <div className="flex space-x-6">
               <a
-                href="#"
+                href="https://www.linkedin.com/in/kainda-castrol-65394523b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                 className="w-12 h-12 rounded-full glass flex items-center justify-center hover:bg-primary/20 hover:scale-110 transition-all"
               >
                 <Linkedin className="w-5 h-5" />
               </a>
               <a
-                href="#"
+                href="https://www.facebook.com/Kastrol.Kinds?mibextid=ZbWKwL"
                 className="w-12 h-12 rounded-full glass flex items-center justify-center hover:bg-primary/20 hover:scale-110 transition-all"
               >
                 <Facebook className="w-5 h-5" />
               </a>
               <a
-                href="#"
+                href="https://x.com/CastrolKainda"
                 className="w-12 h-12 rounded-full glass flex items-center justify-center hover:bg-primary/20 hover:scale-110 transition-all"
               >
                 <Twitter className="w-5 h-5" />
               </a>
               <a
-                href="#"
+                href="https://github.com/KastrolKainda/KastrolKainda"
                 className="w-12 h-12 rounded-full glass flex items-center justify-center hover:bg-primary/20 hover:scale-110 transition-all"
               >
                 <Github className="w-5 h-5" />
