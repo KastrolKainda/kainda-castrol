@@ -360,37 +360,15 @@ const Index = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
 
 
-            
-            {[1, 2, 3].map((project) => (
-              <Card key={project} className="glass hover-lift border-0 overflow-hidden group">
-                <div className="relative h-48 overflow-hidden">
-                  <img
-                    src={`https://images.unsplash.com/photo-${1460925895917 + project}-15f865d7295?w=400&h=300&fit=crop`}
-                    alt={`Project ${project}`}
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
-                </div>
-                
-                <div className="p-6">
-                  <h3 className="text-xl font-heading font-bold mb-2">Red Arrows FC {project}</h3>
-                  <p className="text-muted-foreground mb-4">A prototype of a football club developed with WIX</p>
-                  <Button variant="outline" size="sm" className="w-full">
-                    <ExternalLink className="w-4 h-4 mr-2" />
-                    <a href="https://ckinds09.wixsite.com/redarrows-fc">View Project </a> 
-                  </Button>
-                </div>
-                
-              </Card>
-            ))}
-          </div>
+
+
+          
 
           <div className="text-center">
             <Button className="bg-primary hover:bg-primary/90 text-primary-foreground glow-primary">
-              <a href="https://github.com/KastrolKainda/KastrolKainda">View All Projects </a>
+              <a href="https://sites.google.com/view/kastrolprojecthub/home">View All Projects </a>
             </Button>
           </div>
         </div>
