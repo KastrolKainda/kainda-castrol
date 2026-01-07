@@ -361,7 +361,9 @@ const Index = () => {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-            -----
+
+
+            
             {[1, 2, 3].map((project) => (
               <Card key={project} className="glass hover-lift border-0 overflow-hidden group">
                 <div className="relative h-48 overflow-hidden">
@@ -372,15 +374,16 @@ const Index = () => {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
                 </div>
+                
                 <div className="p-6">
-                  <h3 className="text-xl font-heading font-bold mb-2">Project Title {project}</h3>
-                  <p className="text-muted-foreground mb-4">Brief description of the project and technologies used</p>
+                  <h3 className="text-xl font-heading font-bold mb-2">Red Arrows FC {project}</h3>
+                  <p className="text-muted-foreground mb-4">A prototype of a football club developed with WIX</p>
                   <Button variant="outline" size="sm" className="w-full">
                     <ExternalLink className="w-4 h-4 mr-2" />
-                    
-                    View Project
+                    <a href="https://ckinds09.wixsite.com/redarrows-fc">View Project </a> 
                   </Button>
                 </div>
+                
               </Card>
             ))}
           </div>
@@ -483,6 +486,7 @@ const Index = () => {
                 </div>
                 <h3 className="font-heading font-bold mb-2">Phone</h3>
                 <p className="text-muted-foreground">+260 978 027 616</p>
+                <p className="text-muted-foreground">+260 960 606 912</p>
               </Card>
 
               <Card className="glass border-0 p-6">
@@ -490,7 +494,7 @@ const Index = () => {
                   <MapPin className="w-6 h-6 text-primary" />
                 </div>
                 <h3 className="font-heading font-bold mb-2">Location</h3>
-                <p className="text-muted-foreground">Plot No: 227/75 Ibex, Lusaka, ZM</p>
+                <p className="text-muted-foreground">Plot No: 227/75 Ibex Hill, Lsk, Zambia</p>
               </Card>
             </div>
           </div>
