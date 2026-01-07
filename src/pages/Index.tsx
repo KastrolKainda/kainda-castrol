@@ -27,9 +27,9 @@ const Index = () => {
   ];
 
   const stats = [
-    { number: "50+", label: "Projects Completed" },
+    { number: "15+", label: "Projects Completed" },
     { number: "200+", label: "Students Taught" },
-    { number: "5+", label: "Years Experience" }
+    { number: "1+", label: "Years Experience" }
   ];
 
   const techStacks = [
