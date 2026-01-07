@@ -36,7 +36,7 @@ const Index = () => {
     {
       icon: <Palette className="w-8 h-8" />,
       title: "Design Tools",
-      tools: ["Figma", "Adobe Express", "Canvas", "WIX", "DrawIO", "Premier Pro"],
+      tools: ["Figma", "Adobe Express", "Canvas", "WIX", "DrawIO", "Premier-Pro"],
       color: "from-pink-500 to-purple-500"
     },
     {
