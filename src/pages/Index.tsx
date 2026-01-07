@@ -215,7 +215,7 @@ const Index = () => {
                 About <span className="gradient-text">Me</span>
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                I'm a passionate Computer Science professional with over 1 year of experience in web development, 
+                I'm a passionate Computer Science professional with over 1+ years of experience in web development, 
                 UI/UX design, and tech education. I've had the privilege of working on 15+ personal projects and teaching 
                 200+ students the art of programming and design.
               </p>
@@ -310,7 +310,7 @@ const Index = () => {
         <div className="container-custom">
           <div className="text-center mb-16 animate-fade-in">
             <h2 className="text-4xl md:text-5xl font-heading font-bold mb-4">
-              eBooks & <span className="gradient-text">Videos</span>
+              eBook & <span className="gradient-text">Videos</span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               Educational resources from my undergraduate studies and beyond
@@ -320,13 +320,13 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-8">
             <Card className="glass hover-lift border-0 p-8">
               <BookOpen className="w-16 h-16 mb-6 text-accent" />
-              <h3 className="text-2xl font-heading font-bold mb-4">eBooks Collection</h3>
+              <h3 className="text-2xl font-heading font-bold mb-4">eBook Collection</h3>
               <p className="text-muted-foreground mb-6">
                 Access comprehensive guides and documentation I've created during my studies
               </p>
               <Button variant="outline" className="border-accent text-accent hover:bg-accent/10">
                 <ExternalLink className="w-4 h-4 mr-2" />
-                <a href="https://tr.ee/S6eKVXGmza"> View eBooks</a>
+                <a href="https://tr.ee/S6eKVXGmza"> View eBook</a>
               </Button>
             </Card>
 
@@ -361,7 +361,8 @@ const Index = () => {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-            {[1, 2, 3, 4, 5, 6].map((project) => (
+            -----
+            {[1, 2, 3].map((project) => (
               <Card key={project} className="glass hover-lift border-0 overflow-hidden group">
                 <div className="relative h-48 overflow-hidden">
                   <img
@@ -503,7 +504,7 @@ const Index = () => {
             {/* Social Links */}
             <div className="flex space-x-6">
               <a
-                href="www.linkedin.com/in/kainda-castrol-65394523b"
+                href="https://www.linkedin.com/in/kainda-castrol-65394523b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BbzEMckHbSXS%2FR5S%2B4vMqLA%3D%3D"
                 className="w-12 h-12 rounded-full glass flex items-center justify-center hover:bg-primary/20 hover:scale-110 transition-all"
               >
                 <Linkedin className="w-5 h-5" />
