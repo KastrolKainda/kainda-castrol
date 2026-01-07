@@ -36,25 +36,25 @@ const Index = () => {
     {
       icon: <Palette className="w-8 h-8" />,
       title: "Design Tools",
-      tools: ["Figma", "Adobe Express", "Canvas", "WIX", "DrawIO"],
+      tools: ["Figma", "Adobe Express", "Canvas", "WIX", "DrawIO", "Premier Pro"],
       color: "from-pink-500 to-purple-500"
     },
     {
       icon: <Code className="w-8 h-8" />,
       title: "Web Developer",
-      tools: ["PHP", "Python", "JavaScript", "MySQL", "HTML", "CSS", "Tailwind"],
+      tools: ["PHP (Laravel)", "Python", "JavaScript", "MySQL", "Supabase", "React", "HTML", "CSS", "Tailwind"],
       color: "from-cyan-500 to-blue-500"
     },
     {
       icon: <Brain className="w-8 h-8" />,
       title: "AI Tools",
-      tools: ["ChatGPT", "Claude", "Cursor", "Gemini", "n8n"],
+      tools: ["ChatGPT", "Claude", "Cursor", "Gemini", "Lovable", "DeepSeek"],
       color: "from-orange-500 to-red-500"
     },
     {
       icon: <BarChart className="w-8 h-8" />,
       title: "Data Analyst",
-      tools: ["Excel", "Python", "Power BI", "Google Analytics"],
+      tools: ["Excel", "Python (Basics)", "Power BI", "Google Analytics"],
       color: "from-green-500 to-emerald-500"
     }
   ];
